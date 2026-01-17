@@ -182,7 +182,8 @@ function showToast(type, title, message) {
     }
   }, 3000);
 }
-
+const vApi = "https://voice-to-voice-q78u.vercel.app/";
+window.vApi = vApi;
 function formatDate(dateString) {
   const date = new Date(dateString);
   return date.toLocaleDateString('en-IN', {
