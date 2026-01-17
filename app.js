@@ -829,9 +829,6 @@ function completeIntake() {
   }, 1500);
 }
 
-function toggleVoiceInput() {
-  showToast('info', 'Voice Input', 'Voice input feature will be available soon.');
-}
 
 // Story Mode Functions
 let currentOutcome = 0;
